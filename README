@@ -1,1 +1,10 @@
 this is django-kitten.  It allows you to put kittens in your django templates.
+
+Installation Instructions:
+
+add kitten to your list of installed apps.
+
+In a template, load the kitten tag as follows:  `{% load kitten %}`
+
+The `{% kitten 200x300 %}` tag will give you the URL of a 200x300 image of a kitten.  So you probably want to do something like this:
+`<img src="{% kitten 200x300 %}" />`
